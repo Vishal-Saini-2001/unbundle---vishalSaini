@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    font-weight: 700;
+    margin: 20px 10px 0px 10px;
+}
+
+.add{
+    background-color: rgb(5, 74, 249);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.remove{
+    background-color: rgb(249, 5, 5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+.add:hover{
+    background-color: rgb(0, 34, 120);
+}
+
+.remove:hover{
+    background-color: rgb(162, 1, 1);
+}
